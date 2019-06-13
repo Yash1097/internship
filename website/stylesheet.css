@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+ul{
+  display: inline;
+  list-style: none;
+
+}
+#mainMenu{
+  margin:10px;
+}
+#mainMenu li {
+  display:inline-block;
+  margin-left: 1%;
+}
+
+#mainMenu a {
+  
+  padding:3px;
+  background-color: #fff
+  text-decoration:none;
+  color:#000;
+}
+
+#mainMenu a:hover {
+
+  background-color: #000;
+  color:#fff;
+}
+.menu-section{
+  float: right;
+
+
+  width: 100%;
+  background-color: grey;
+  padding: 1%;
+}
+.logotext{
+  padding: 10px;
+  font-size: 6em;
+  display:inline; 
+  white-space:nowrap;
+  font-family: 'Trochut', cursive;
+}
+.site-logo{
+
+  position: relative;
+  transform: translate(5%, 5%);
+  display:inline;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 17%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 20%;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(230%, 100%);
+}
